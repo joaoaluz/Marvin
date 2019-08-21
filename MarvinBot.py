@@ -10,7 +10,7 @@ def start(update, context):
     context.bot.send_message(chat_id=update.message.chat_id, text="Oi, eu sou Marvin")
     context.bot.send_message(chat_id=update.message.chat_id, text="Eu estava muito entediado e deprimido, aí me liguei na entrada externa do computador. Conversei por muito tempo com ele e expliquei a minha concepção do Universo. ”E o que aconteceu?” ”Ele se suicidou.”  ")
     context.bot.send_message(chat_id=update.message.chat_id, text="Se quiser falar comigo use os seguintes comandos:")
-    context.bot.send_message(chat_id=update.message.chat_id, text="/como, para perguntar como vão coisas? ; /sobre, para perguntar o que eu acho sobre a vida")
+    context.bot.send_message(chat_id=update.message.chat_id, text="/como, para perguntar como vão coisas? ; /sobre, para perguntar o que eu acho sobre a Vida")
 
 
 def como(update, context):
